@@ -71,6 +71,7 @@ section.imagem{
     background-size: cover;
     background-attachment: fixed;
     border-radius: 5px 0px 5px 0px;
+    background-repeat: no-repeat;
 }
 
 section.imagem > p {
@@ -89,9 +90,11 @@ section#img01{
 
 section#img02{
     background-image: url(imagens/background002.jpg);
+    background-position: right center;
 }
 
 footer{
+    font-size: 5vw;
     background-color: black;
     color: white;
     text-align: justify;
